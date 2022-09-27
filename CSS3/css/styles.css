@@ -1,0 +1,127 @@
+/*
+al conjunto de selector>propiedad>valor se le llama regla
+selector { 
+    propiedad: valor;
+    propiedad1: valor1;
+    propiedad2: valor2
+}
+
+## TIPOS DE SELECTORES
+- Basicos
+- Contenedores
+- Pseudoelementos
+- Pseudoclases
+
+## SELECTORES BASICOS
+Etiquetas, clases, id, universal y atributos
+*/
+
+
+/* Selector de etiquetas */
+h2 {
+    color: orange;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+/* Selector de clases */
+.titulo {
+    color: rebeccapurple;
+}
+
+/* Selector de id */
+#parrafo {
+    color: blue
+}
+
+/* Selector universal */
+* {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* 
+Selector de atributos 
+Seleccionando los elementos que tienen un atributo en especifico
+*/
+[href] {
+    color: red;
+}
+
+/* 
+Selector de atributos 
+Seleccionando los elementos que tienen un atributo y un valor en especifico
+*/
+[href="#"] {
+    color: green;
+}
+
+/* 
+Selector de atributos 
+Seleccionando los elementos que tienen un atributo con un valor que incluye "verde"
+*/
+[class~="verde"] {
+    color: purple;
+}
+
+/* 
+Selector de atributos 
+Seleccionando los elementos que tienen un atributo y un valor exacto o que empiece con dicho valor seguido de un guion
+*/
+[class|="verde"] {
+    color: red;
+}
+
+/* 
+Selector de atributos 
+Seleccionando los elementos que tienen un atributo y empiece por el valor especificado
+*/
+[class^="verde"] {
+    color: blue;
+}
+
+/* 
+Selector de atributos 
+Seleccionando los elementos que tienen un atributo y debe terminar con el valor especificado
+*/
+[class$="rojo"] {
+    color: red;
+}
+
+/* 
+Selector de atributos 
+Seleccionando los elementos que tienen un atributo y debe contener el valor especificado
+*/
+[class*="rojo"] {
+    color: green;
+}
+
+/*
+## SELECTORES COMBINADORES
+- Hermano adyacente
+- Hermano general
+- Descendentes
+- Hijo descendente
+/*
+
+/* Hermano adyacente, selecciona el hermano que este debajo de este, hermano inferior*/
+h1 + h2 {
+    color: aqua;
+}
+
+/* Hermano general, selecciona todos los que esten debajo de un elemento, todos los inferiores*/
+h1 ~ h3 {
+    color: lime;
+}
+
+/* Selector descendente, selecciona todos los elementos dentro de el elemento especificado*/
+div p {
+    color: palevioletred;
+}
+
+/* Hijo indirecto o hijo descendente, selecciona solo los hijos directos de la etiqueta especificada*/
+div > p {
+    color: brown;
+}

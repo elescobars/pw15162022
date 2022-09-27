@@ -1,0 +1,110 @@
+<html>
+    <body>
+        <form>
+            <h3>Muchas formas de hacer formularios</h3>
+            <label for="nombre">Nombre</label>
+            <input 
+                type="text" 
+                id="nombre" 
+                name="nombre"
+                value=""
+                placeholder="Ingrese un nombre ~ Ej: Alex"
+                size="30"
+                maxlength="20"
+                pattern=""
+                autofocus
+                readonly
+                disabled>
+            <br>
+            (Readonly indica un campo de solo lectura)
+
+            <h3>Input type radio</h3>
+            <fieldset>
+                <legend>Papitas favoritas</legend>
+                <input type="radio" name="papitas" value="Gjo" checked> Gajo <br>
+                <input type="radio" name="papitas" value="Frn"> A la francesa <br>
+                <input type="radio" name="papitas" value="Cur"> Curly <br>
+                <input type="radio" name="papitas" value="Asd"> Asadas <br>
+                <input type="radio" name="papitas" value="Hrn"> Al horno
+            </fieldset>
+
+            <h3>Dropdown select</h3>
+            <label for="frutas">Frutas</label>
+            <select name="frutas" id="frutas">
+                <optgroup label="Tropicales">
+                    <option value="Mgo">Banana</option>
+                    <option value="Frs">Pi&ntilde;a</option>
+                </optgroup>
+                <optgroup label="Citricos">
+                    <option value="Nja">Naranja</option>
+                    <option value="Tja">Toronja</option>
+                </optgroup>
+            </select>
+
+            <h3>Textarea</h3>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="20"></textarea>
+
+            <h3>Datalist</h3>
+            <label for="busc">Navegador</label>
+            <input type="text" id="Navg" list="Naveg">
+            <datalist id="Naveg">
+                <option value="Opera"></option>
+                <option value="Chrome"></option>
+                <option value="Safari"></option>
+                <option value="Firefox"></option>
+                <option value="Edge"></option>
+            </datalist>
+
+            <h3>Password</h3>
+            <input type="password" placeholder="Contrase&ntilde;a" required>
+
+            <h3>Checkbox</h3>
+            <input type="checkbox" name="colorfav" value="R"> Red <br>
+            <input type="checkbox" name="colorfav" value="G"> Green <br>
+            <input type="checkbox" name="colorfav" value="B"> Blue <br>
+            <input type="checkbox" name="colorfav" value="C"> Cyan <br>
+            <input type="checkbox" name="colorfav" value="M"> Magenta <br>
+            <input type="checkbox" name="colorfav" value="Y"> Yellow <br>
+            <input type="checkbox" name="colorfav" value="K"> Black
+            
+            <h3>Color</h3>
+            <input type="color">
+
+            <h3>Fechas</h3>
+            <input type="date" min="1998-01-01" name="diamesano" id="mmddyy">
+            <input type="datetime-local" name="diahora" id="mmddyyhh">
+            <input type="time" value="14:55" name="hora" id="hh">
+            <input type="week" name="semana" id="wk">
+            <input type="month" name="mes" id="mth">
+
+            <h3>Correo</h3>
+            <input type="email">
+
+            <h3>URL</h3>
+            <input type="url">
+
+            <h3>Numero</h3>
+            <input type="number" value="10" min="10" max="10000" step="10">
+            <br><br>
+            <input type="submit">
+
+            <br><br>
+            <input type="image" src="assets/bbutton.png" width="60px">
+
+            <h3>Range</h3>
+            <input type="range" min="1" max="10">
+
+            <h3>Search</h3>
+            <input type="search">
+
+            <h3>File</h3>
+            <input type="file" name="fldarch" multiple>
+
+            <h3>Bot&oacute;n de enviar</h3>
+            <button>Enviar</button>
+            
+            <h3>Bot&oacute;n de limpiar</h3>
+            <input type="reset" value="Limpiar">
+        </form>
+    </body>
+</html>
