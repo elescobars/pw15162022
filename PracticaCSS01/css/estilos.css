@@ -1,8 +1,21 @@
+.nito {
+    font-weight: bold;
+}
+
+.unaSeccion {
+    font-size: 3em;
+}
+
+.otraSeccion {
+    font-size: 2em;
+}
+
 body {
     /* 1em */
     font-size: 16px;
     margin: 0px auto;
     max-width: 1024px;
+    font-family: sans-serif
 }
 
 header {
@@ -11,7 +24,25 @@ header {
 
 header nav {
     background-color: #026dc6;
+    border-radius: 5px;
+    margin: 0px auto;
     padding: 2px 0;
+    width: 99%;
+}
+
+header nav form input {
+    border-radius: 5px;
+}
+
+header nav form input[type="submit"] {
+    background-color: rgb(10, 193, 16);
+    border: 1px solid rgb(10, 193, 16);
+    color: rgb(255, 255, 255);
+}
+
+header nav form input[type="text"] {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
 }
 
 header nav ul li {
@@ -29,4 +60,33 @@ header nav form {
 
 #logo {
     margin-top: -115px;
+}
+
+#seccion01 {
+    margin-top: 10px;
+}
+
+#seccion01 article {
+    text-align: center;
+}
+
+#seccion01 article img {
+    width: 98%;
+    border: 5px solid rgb(215, 215, 215);
+}
+
+#seccion02 article {
+    display: inline-block;
+    width: 32.8%;
+    vertical-align: top;
+}
+
+#seccion02 article input[type="submit"] {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    color: rgb(29, 29, 187);
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 125px;
+    border: solid 1px rgb(175, 175, 175);
 }
