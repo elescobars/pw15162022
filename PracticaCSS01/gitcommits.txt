@@ -1,0 +1,41 @@
+commit b64988254f30f0ea314e416ef76685af4860e39f
+Author: CCDM17 <ccdm17@CCDM17-2.local>
+Date:   Mon Oct 3 15:53:05 2022 -0600
+
+    Practica01 Realizada
+
+commit ef5242e04a7e8332c8f970373d3ff224fdcf6e94
+Author: CCDM17 <ccdm17@CCDM17-2.local>
+Date:   Thu Sep 29 16:00:37 2022 -0600
+
+    Estilos del header
+
+commit 4ae03a3ccee1220cb2e5252071b238891572316b
+Author: CCDM17 <ccdm17@CCDM17-2.local>
+Date:   Wed Sep 28 15:57:40 2022 -0600
+
+    Commit pagina css3 es genial
+
+commit 7830059c64d230d2af532206fa2728e1dc48d3f6
+Author: CCDM17 <ccdm17@CCDM17-2.local>
+Date:   Tue Sep 27 15:52:43 2022 -0600
+
+    Otro commit con mas cambios
+
+commit 3e2bee807f2031ff48ee06442bb69fc431b69b6b
+Author: CCDM17 <ccdm17@CCDM17-2.local>
+Date:   Tue Sep 27 15:48:13 2022 -0600
+
+    Otro commit hola mundo
+
+commit 374a78569ac21edeba2dd9ba6c53479a7f86fbed
+Author: CCDM17 <ccdm17@CCDM17-2.local>
+Date:   Tue Sep 27 15:47:12 2022 -0600
+
+    Commit hola mundo
+
+commit b10f03221a82f3d30b052d9b0bb86210874360c4
+Author: CCDM17 <ccdm17@CCDM17-2.local>
+Date:   Tue Sep 27 15:32:34 2022 -0600
+
+    Primer commit
