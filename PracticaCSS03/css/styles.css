@@ -1,0 +1,82 @@
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+    margin: 0px auto;
+    max-width: 1024px;
+}
+
+header nav {
+    text-align: left;
+    background: linear-gradient(#ff8800 5%, #ebad5c, #ff6600 45%);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 5px;
+    width: 98%;
+    margin: 0px auto;
+}
+
+header nav ul li {
+    color: #ffffff;
+    display: inline-block;
+    margin-right: 40px;
+    margin-left: -15px;
+    font-weight: bold;
+}
+
+#iconred {
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+#thema {
+    max-width: 250px;
+}
+
+.banner {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contenido {
+    width: 93%;
+    margin: 0px auto;
+    border: 1px solid red;
+    display: flex;
+}
+
+.sidebar {
+    width: 34%;
+}
+
+section.sidebar article {
+    border: 1px solid #9c9c9c;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.posts {
+    width: 64%
+}
+
+.titulonaranja {
+    font-weight: bold;
+    background: linear-gradient(#ff8800 5%, #ebad5c, #ff6600 45%);
+    color: #ffffff;
+    text-align: center;
+    list-style: none;
+    margin: 0px;
+    padding: 7px 0px;
+    border-radius: 10px;
+}
+
+.contenidosidebar {
+    margin: 20px 5px;
+    text-align: center;
+}
+
+div.contenidosidebar input {
+    border-radius: 10px;
+}
