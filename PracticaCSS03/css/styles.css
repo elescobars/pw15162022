@@ -23,6 +23,28 @@ header nav ul li {
     font-weight: bold;
 }
 
+section article ul {
+    margin-left: -12px;
+    color: #646464;
+    font-weight: bold;
+    list-style: none;
+}
+
+section article ul li {
+    border-bottom: 1px dotted grey;
+    padding: 4px 0px;
+    margin-right: 30px;
+}
+
+section article ul li::before {
+    content: "\2022";
+    color: #000000;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
 #iconred {
     float: right;
     margin-top: 20px;
@@ -41,14 +63,16 @@ header nav ul li {
 }
 
 .contenido {
-    width: 93%;
+    width: 95%;
     margin: 0px auto;
-    border: 1px solid red;
     display: flex;
+    box-shadow: -5px 1px 7px -3px #afafafbf, 5px 1px 7px -3px #afafafbf;
 }
 
 .sidebar {
     width: 34%;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 section.sidebar article {
@@ -58,7 +82,52 @@ section.sidebar article {
 }
 
 .posts {
-    width: 64%
+    width: 64%;
+    padding: 0px 10px;
+}
+
+.posts article {
+    border-bottom: 1px solid #808080;
+    padding: 20px 0px;
+}
+
+#titularpost {
+    border: 10px solid #d3d3d3;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    width: 30%;
+}
+
+.autoria {
+    padding: 10px;
+    border: none;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    font-size: 0.8em;
+    box-shadow: 1px 5px 4px -3px #2b2b2bbf;
+}
+
+.author {
+    font-weight: bold;
+    font-style: italic;
+    color: #808080;
+}
+
+.postdescr {
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;
+}
+
+.postdescr input {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #d3d3d3;
+    color: #ffffff;
+    font-style: oblique;
+    font-weight: bold;
 }
 
 .titulonaranja {
@@ -68,15 +137,46 @@ section.sidebar article {
     text-align: center;
     list-style: none;
     margin: 0px;
-    padding: 7px 0px;
+    margin-top: -3px;
+    padding: 8px 0px;
     border-radius: 10px;
+}
+
+.titulogris {
+    font-weight: bold;
+    font-size: 2em;
+    color:#8a8a8a;
+}
+
+.contenidosidebarsearch {
+    margin: 15px auto;
+    padding: 5px;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid #808080;
+    width: 218px;
+}
+
+.contenidosidebarsearch input {
+    text-align: left;
+    border-radius: 15px;
+    border: 1px solid #808080;
+    padding: 5px;
+}
+
+.contenidosidebarsearch input[type="submit"] {
+    background-color: #a9a9a9;
+    border: 1px solid #000000;
+    color: #ffffff;
 }
 
 .contenidosidebar {
     margin: 20px 5px;
     text-align: center;
+    border-radius: 10px;
 }
 
-div.contenidosidebar input {
-    border-radius: 10px;
+::placeholder {
+    color: black;
+    opacity: 1;
 }
