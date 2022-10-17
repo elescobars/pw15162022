@@ -5,6 +5,10 @@ body {
     max-width: 1024px;
 }
 
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+
 header nav {
     text-align: left;
     background: linear-gradient(#ff8800 5%, #ebad5c, #ff6600 45%);
@@ -21,6 +25,10 @@ header nav ul li {
     margin-right: 40px;
     margin-left: -15px;
     font-weight: bold;
+}
+
+header nav ul li:hover {
+    cursor: pointer;
 }
 
 section article ul {

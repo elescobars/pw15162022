@@ -1,0 +1,66 @@
+header {
+    background-color: #235d92;
+    text-align: center;
+}
+
+header nav ul {
+    background-color: #efefef;
+    text-align: right;
+}
+
+header nav ul li {
+    display:inline-block;
+    vertical-align: bottom;
+    margin-right: 10px;
+}
+
+header nav ul li:hover {
+    cursor:pointer;
+}
+
+body {
+    background-color: #efefef;
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+section.barleft article {
+    background-color: #235d92;
+    margin: 10px 15px ;
+    color: #fefbfe;
+}
+
+section.barleft article ul {
+    background-color: #1d4972;
+    list-style: none;
+}
+
+section.barleft article ul li {
+    text-indent: 0em;
+    margin: 2px 0px 2px -25px;
+    padding: 5px 0px;
+}
+
+section.barleft article ul li:before {
+    content: "</> ";
+}
+
+.titulocuadro {
+    
+}
+
+.logoseccion {
+    width: 35px;
+    vertical-align: middle;
+    margin-left: 8px;
+}
+
+.barleft {
+    width: 25%;
+}
+
+.content {
+    width: 74%
+}
+
