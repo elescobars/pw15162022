@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Practica CSS04</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
     <header>
         <img src="img/logo.png" alt="logo">
@@ -19,27 +21,63 @@
         </nav>
     </header>
 
-    <section class="barleft">
-        <article>
-            <img class="logoseccion" src="img/logolinks.png" alt="">
-            <span class="titulocuadro">Panel with links</span>
-            <ul>
-                <li>Example</li>
-                <li>Example</li>
-                <li>Example</li>
-                <li>Example</li>
-                <li>Example</li>
-                <li>Example</li>
-                <li>Example</li>
-                <li>Example</li>
-                <li>Example</li>
-                <li>Example</li>
-            </ul>
-        </article>
-    </section>
+    <div class="frame">
+        <section class="barleft">
+            <article>
+                <img class="logoseccion" src="img/logolinks.png" alt="">
+                <span class="titulocuadro">Panel with links</span>
+                <ul>
+                    <li>Example</li>
+                    <li>Example</li>
+                    <li>Example</li>
+                    <li>Example</li>
+                    <li>Example</li>
+                    <li>Example</li>
+                    <li>Example</li>
+                    <li>Example</li>
+                    <li>Example</li>
+                    <li>Example</li>
+                </ul>
+            </article>
 
-    <section class="content">
+            <article>
+                <img class="logoseccion" src="img/logoprogress.png" alt="">
+                <span class="titulocuadro">Panel with progress</span>
+                <div class="barleftwhitebg">
+                    <span>Progress Bar</span>
+                    <img src="img/barra01.png" alt="">
+                    <span>Progress Bar</span>
+                    <img src="img/barra02.png" alt="">
+                    <span>Progress Bar</span>
+                    <img src="img/barra03.png" alt="">
+                    <span>Progress Bar</span>
+                    <img src="img/barra04.png" alt="">
+                </div>
+            </article>
+        </section>
 
-    </section>
+        <section class="content">
+            <h3>Simple cubes</h3>
+            <div class="cubos">
+                <div class="cubo" id="cuboverde">
+                    <img src="img/cubo1.png" alt="">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="cubo" id="cuboazul">
+                    <img src="img/cubo02.png" alt="">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="cubo" id="cubomorado">
+                    <img src="img/cubo03.png" alt="">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="cubo" id="cuborojo">
+                    <img src="img/cubo04.png" alt="">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </section>
+    </div>
 </body>
+
 </html>

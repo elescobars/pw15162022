@@ -3,6 +3,14 @@ header {
     text-align: center;
 }
 
+header nav {
+    margin: 0px 5px 0px 5px;
+    background-color: #efefef;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px solid #efefef;
+}
+
 header nav ul {
     background-color: #efefef;
     text-align: right;
@@ -19,21 +27,26 @@ header nav ul li:hover {
 }
 
 body {
-    background-color: #efefef;
+    background-color: #235d92;
     margin: 0;
     font-family: sans-serif;
     font-size: 16px;
 }
 
+section.barleft {
+    padding-bottom: 10px;
+}
+
 section.barleft article {
     background-color: #235d92;
-    margin: 10px 15px ;
+    margin: 0px 10px 15px 20px;
     color: #fefbfe;
 }
 
 section.barleft article ul {
     background-color: #1d4972;
     list-style: none;
+    margin-top: 0px;
 }
 
 section.barleft article ul li {
@@ -46,8 +59,27 @@ section.barleft article ul li:before {
     content: "</> ";
 }
 
-.titulocuadro {
-    
+.barleftwhitebg {
+    background-color: #ffffff;
+    color: #757575;
+    padding-top: 10px;
+}
+
+.barleftwhitebg span {
+    padding: 10px 0px 0px 15px;
+}
+
+.barleftwhitebg img{
+    width: 95%;
+    margin-left: 10px;
+}
+
+.frame {
+    background-color: #efefef;
+    margin: 0px 5px 0px 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
 }
 
 .logoseccion {
@@ -61,6 +93,56 @@ section.barleft article ul li:before {
 }
 
 .content {
-    width: 74%
+    width: 74%;
+    background-color: #ffffff;
+    padding: 30px 0px 20px 0px;
+    margin-bottom: 10px;
+    border-radius: 5px;
 }
 
+.content h3 {
+    color: gray;
+    margin: 0px 30px 5px 30px;
+    font-weight: normal;
+}
+
+.cubos {
+    display: flex;
+    margin: 0px 20px 0px 20px;
+}
+
+.cubo {
+    display: inline;
+    width: 25%;
+    text-align: center;
+    margin: 10px 5px 10px 5px;
+    padding: 20px 0px 40px 0px;
+    background-color:#1d4972;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.cubo p {
+    margin: 0px 1em 0px 1em;
+}
+
+.cubo img {
+    padding-top: 20px;
+    width: 40%;
+}
+
+#cuboverde {
+    background-color: #1aa721;
+}
+
+#cuboazul {
+    background-color: #196da9;
+}
+
+#cubomorado {
+    background-color: #7f19aa;
+}
+
+#cuborojo {
+    background-color: #a81b15;
+}
