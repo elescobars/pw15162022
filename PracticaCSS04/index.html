@@ -1,83 +1,124 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practica CSS04</title>
-    <link rel="stylesheet" href="css/styles.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Practica CSS04</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
 
-<body>
-    <header>
-        <img src="img/logo.png" alt="logo">
-        <nav>
-            <ul>
-                <li><img src="img/notificaciones.png" alt=""></li>
-                <li><img src="img/mensajes.png" alt=""></li>
-                <li><img src="img/ajustes.png" alt=""></li>
-            </ul>
-        </nav>
-    </header>
-
-    <div class="frame">
-        <section class="barleft">
-            <article>
-                <img class="logoseccion" src="img/logolinks.png" alt="">
-                <span class="titulocuadro">Panel with links</span>
+    <body>
+        <header>
+            <img src="img/logo.png" alt="logo">
+            <nav>
                 <ul>
-                    <li>Example</li>
-                    <li>Example</li>
-                    <li>Example</li>
-                    <li>Example</li>
-                    <li>Example</li>
-                    <li>Example</li>
-                    <li>Example</li>
-                    <li>Example</li>
-                    <li>Example</li>
-                    <li>Example</li>
+                    <li><span>Notifications</span><span class="badge">3</span></li>
+                    <li><span>Messages</span><span class="badge">1</span></li>
+                    <li><span>Settings &#9660;</span></li>
                 </ul>
-            </article>
+            </nav>
+        </header>
 
-            <article>
-                <img class="logoseccion" src="img/logoprogress.png" alt="">
-                <span class="titulocuadro">Panel with progress</span>
-                <div class="barleftwhitebg">
-                    <span>Progress Bar</span>
-                    <img src="img/barra01.png" alt="">
-                    <span>Progress Bar</span>
-                    <img src="img/barra02.png" alt="">
-                    <span>Progress Bar</span>
-                    <img src="img/barra03.png" alt="">
-                    <span>Progress Bar</span>
-                    <img src="img/barra04.png" alt="">
-                </div>
-            </article>
-        </section>
+        <article class="frame">
+            <section class="barleft">
+                <article>
+                    <img class="logoseccion" src="img/logolinks.png" alt="">
+                    <span>Panel with links</span>
+                    <ul>
+                        <li>Example</li>
+                        <li>Example</li>
+                        <li>Example</li>
+                        <li>Example</li>
+                        <li>Example</li>
+                        <li>Example</li>
+                        <li>Example</li>
+                        <li>Example</li>
+                        <li>Example</li>
+                        <li>Example</li>
+                    </ul>
+                </article>
 
-        <section class="content">
-            <h3>Simple cubes</h3>
-            <div class="cubos">
-                <div class="cubo" id="cuboverde">
-                    <img src="img/cubo1.png" alt="">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-                <div class="cubo" id="cuboazul">
-                    <img src="img/cubo02.png" alt="">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-                <div class="cubo" id="cubomorado">
-                    <img src="img/cubo03.png" alt="">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-                <div class="cubo" id="cuborojo">
-                    <img src="img/cubo04.png" alt="">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-            </div>
-        </section>
-    </div>
-</body>
+                <article>
+                    <img class="logoseccion" src="img/logoprogress.png" alt="">
+                    <span>Panel with progress</span>
+                    <article id="barleftwhitebg">
+                        <span>Progress Bar</span>
+                        <img src="img/barra01.png" alt="">
+                        <span>Progress Bar</span>
+                        <img src="img/barra02.png" alt="">
+                        <span>Progress Bar</span>
+                        <img src="img/barra03.png" alt="">
+                        <span>Progress Bar</span>
+                        <img src="img/barra04.png" alt="">
+                    </article>
+                </article>
+            </section>
+
+            <section class="content">
+                <h3>Simple cubes</h3>
+                <article class="cubos">
+                    <article class="cubo" id="cuboverde">
+                        <img src="img/cubo1.png" alt="">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </article>
+                    <article class="cubo" id="cuboazul">
+                        <img src="img/cubo02.png" alt="">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </article>
+                    <article class="cubo" id="cubomorado">
+                        <img src="img/cubo03.png" alt="">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </article>
+                    <article class="cubo" id="cuborojo">
+                        <img src="img/cubo04.png" alt="">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </article>
+                </article>
+
+                <h3>Panels</h3>
+                <article>
+                    <img src="img/panels.PNG" alt="" id="panels">
+                </article>
+
+                <h3>Usuarios</h3>
+                <article class="cubos">
+                    <article class="usuario">
+                        <img src="img/usuario01.png" alt="">
+                        <p>User Example</p>
+                        <button type="submit">
+                            <img src="img/sendbtnpencil.PNG" alt="">
+                            <span>Send Message</span>
+                        </button>
+                    </article>
+                    <article class="usuario">
+                        <img src="img/usuario02.png" alt="">
+                        <p>User Example</p>
+                        <button type="submit">
+                            <img src="img/sendbtnpencil.PNG" alt="">
+                            <span>Send Message</span>
+                        </button>
+                    </article>
+                    <article class="usuario">
+                        <img src="img/usuario03.png" alt="">
+                        <p>User Example</p>
+                        <button type="submit">
+                            <img src="img/sendbtnpencil.PNG" alt="">
+                            <span>Send Message</span>
+                        </button>
+                    </article>
+                    <article class="usuario">
+                        <img src="img/usuario04.png" alt="">
+                        <p>User Example</p>
+                        <button type="submit">
+                            <img src="img/sendbtnpencil.PNG" alt="">
+                            <span>Send Message</span>
+                        </button>
+                    </article>
+                </article>
+            </section>
+        </article>
+    </body>
 
 </html>

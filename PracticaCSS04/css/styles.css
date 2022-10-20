@@ -13,17 +13,18 @@ header nav {
 
 header nav ul {
     background-color: #efefef;
+    color: #757575;
     text-align: right;
 }
 
 header nav ul li {
-    display:inline-block;
+    display: inline-block;
     vertical-align: bottom;
-    margin-right: 10px;
+    margin: 25px 50px 20px 0px;
 }
 
 header nav ul li:hover {
-    cursor:pointer;
+    cursor: pointer;
 }
 
 body {
@@ -59,19 +60,13 @@ section.barleft article ul li:before {
     content: "</> ";
 }
 
-.barleftwhitebg {
-    background-color: #ffffff;
-    color: #757575;
-    padding-top: 10px;
-}
-
-.barleftwhitebg span {
-    padding: 10px 0px 0px 15px;
-}
-
-.barleftwhitebg img{
-    width: 95%;
-    margin-left: 10px;
+.badge {
+    position: absolute;
+    margin: -25px 0px 0px -3px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background: #3982bd;
+    color: #ffffff;
 }
 
 .frame {
@@ -106,9 +101,51 @@ section.barleft article ul li:before {
     font-weight: normal;
 }
 
+.content article {
+    text-align: center;
+}
+
 .cubos {
     display: flex;
     margin: 0px 20px 0px 20px;
+}
+
+.usuario {
+    display: inline;
+    width: 25%;
+    text-align: center;
+    margin: 10px 5px 10px 5px;
+    padding: 0px 0px 10px 0px;
+    background-color: #496aae;
+    color: #ffffff;
+}
+
+.usuario img {
+    width: 70%;
+}
+
+.usuario p {
+    margin: 10px 0px 15px 0px;
+    font-size: 1.5em;
+}
+
+.usuario button {
+    font-size: 0.8em;
+    padding: 10px 20px 8px 20px;
+    color: #ffffff;
+    border: 1px solid #56c3dc;
+    background: #56c3dc;
+    border-radius: 5px;
+}
+
+.usuario button:hover {
+    cursor: pointer;
+}
+
+.usuario button img {
+    width: 20px;
+    margin-top: -5px;
+    vertical-align: middle;
 }
 
 .cubo {
@@ -117,7 +154,7 @@ section.barleft article ul li:before {
     text-align: center;
     margin: 10px 5px 10px 5px;
     padding: 20px 0px 40px 0px;
-    background-color:#1d4972;
+    background-color: #1d4972;
     color: #ffffff;
     border-radius: 5px;
 }
@@ -145,4 +182,24 @@ section.barleft article ul li:before {
 
 #cuborojo {
     background-color: #a81b15;
+}
+
+#barleftwhitebg {
+    background-color: #ffffff;
+    color: #757575;
+    padding-top: 10px;
+    margin: 0px;
+}
+
+#barleftwhitebg span {
+    padding: 10px 0px 0px 15px;
+}
+
+#barleftwhitebg img {
+    width: 95%;
+    margin-left: 10px;
+}
+
+#panels {
+    width: 95%;
 }
