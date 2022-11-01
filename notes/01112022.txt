@@ -1,0 +1,10 @@
+LESS, Sass <- Pre procesadores de CSS
+
+JavaScript lenguaje de programacion
+TypeScript <- Pre procesador de JavaScript
+LiveScript <- Llamado antes Mocha y despues JavaScript
+
+Cliente tiene acceso al solicitar a un servidor web > HTML + CSS + JavaScript
+
+DOM = Document Object Model <- pagina
+Object, document
