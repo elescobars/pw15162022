@@ -1,0 +1,8 @@
+HTML CSS JAVASCRIPT
+app -> solicitud(request) -> server
+
+server -> bd -> respuesta
+app <-
+javascript ??? xml, json
+json = javascript object notation
+javascript lee objetos json naturalmente
