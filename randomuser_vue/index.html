@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random user con Vue.js</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <div id="app">
@@ -15,10 +16,19 @@
             {{mensaje}}
         </div>
         <br>
+        Cantidad de personas:
+        <input type="text" v-model="cantidad">
+        <br>
         <button @click.prevent="randomUser()">
             Random User
         </button>
-            {{nombre}}
+        <br>
+        {{nombre}}
+        <p></p>
+        <div v-for="persona in personas" id="personasrandom">
+            <img :src="persona.picture.large">
+            {{persona.name.first}} {{persona.name.last}}
+        </div>
     </div>
     
     <!--Script de Vue.js, Axios y el script main-->
