@@ -1,7 +1,12 @@
 let express=require('express');
 let mysql=require('mysql');
+// Que el cliente frontend pueda usar la api
+let cors=require('cors');
 let app=express();
 let puerto=3000;
+
+// Recibir datos json
+app.use(express.json());
 
 app.listen(puerto, function(){
     console.log('Server ONLINE!');
@@ -68,4 +73,34 @@ app.post('/api/articulos',function(req,res){
             res.send(results);
         }
     });
+});
+
+// Ruta para actualizar un articulo
+app.put('/api/articulos/:id',function(req,res){
+    let id=req.params.id;
+    let descripcion=req.body.descripcion;
+    let precio=req.body.precio;
+    let cantidad=req.body.cantidad;
+    let sql="UPDATE articulos SET descripcion = ?, precio = ?, cantidad = ? WHERE id = ?";
+    connection.query(sql,[descripcion,precio,cantidad,id],
+        function(error,results){
+            if(error){
+                throw error;
+            }else{
+                res.send(results);
+            }
+        });
+});
+
+//Ruta para borrar un articulo
+app.delete('/api/articulos/:id',function(req,res){
+    let id=req.params.id;
+    let sql='DELETE FROM articulos WHERE id = ?';
+    connection.query(sql,[id],function(error,results){
+        if(error){
+            throw error;
+        }else{
+            res.send(results);
+        }
+    })
 });
