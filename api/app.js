@@ -15,7 +15,7 @@ app.listen(puerto, function(){
 // Base de datos
 // Parametros de conexion
 let connection=mysql.createConnection({
-    host:'192.168.64.2',
+    host:'localhost',
     user:'pw',
     password:'12345678',
     database:'pw'
